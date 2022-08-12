@@ -21,7 +21,7 @@
     "telegram widget",
     "component"
   ],
-  "version": "0.1.0-dev1",
+  "version": "0.1.0-dev2",
   "scripts": {
     "lib:watch": "vue-tsc --emitDeclarationOnly && vite build --watch",
     "lib:build": "vue-tsc --emitDeclarationOnly && vite build",
