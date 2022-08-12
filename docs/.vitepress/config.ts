@@ -44,7 +44,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present @skhrvg',
+      copyright: 'Copyright © 2022-present Gleb Sakharov',
     },
   },
 
