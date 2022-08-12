@@ -1,8 +1,26 @@
 {
   "name": "televue",
-  "author": "skhrvg",
+  "author": {
+    "name": "Gleb Sakharov",
+    "url": "https://skhr.vg"
+  },
   "license": "MIT",
-  "description": "televue",
+  "description": "Telegram widgets as components for Vue 3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skhrvg/televue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skhrvg/televue/issues"
+  },
+  "homepage": "https://televue.skhr.vg",
+  "keywords": [
+    "vue",
+    "vue 3",
+    "telegram",
+    "telegram widget",
+    "component"
+  ],
   "version": "0.1.0-dev1",
   "scripts": {
     "lib:watch": "vue-tsc --emitDeclarationOnly && vite build --watch",
