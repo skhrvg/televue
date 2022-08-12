@@ -14,7 +14,7 @@ jobs:
           cache: npm
       - run: npm i
       - name: Build
-        run: npn run docs:build
+        run: npm run docs:build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
