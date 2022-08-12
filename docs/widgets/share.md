@@ -7,8 +7,8 @@ editLink: true
   import ButtonShare from '../../src/components/ButtonShare.vue';
   import ComponentDemo from '../components/ComponentDemo.vue';
   
-  const pageUrl = location.href;
-  const pageTitle = document.title;
+  const pageUrl = 'https://televue.skhr.vg/widgets/share';
+  const pageTitle = 'Telegram Sharing Button Widget for Vue 3';
 </script>
 
 ![Sharing button](https://core.telegram.org/img/Widget_Share.svg)
