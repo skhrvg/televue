@@ -4,7 +4,6 @@
   "license": "MIT",
   "description": "televue",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "lib:watch": "vue-tsc --emitDeclarationOnly && vite build --watch",
     "lib:build": "vue-tsc --emitDeclarationOnly && vite build",
