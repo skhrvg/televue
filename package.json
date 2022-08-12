@@ -3,7 +3,7 @@
   "author": "skhrvg",
   "license": "MIT",
   "description": "televue",
-  "version": "0.0.1",
+  "version": "0.1.0-dev1",
   "scripts": {
     "lib:watch": "vue-tsc --emitDeclarationOnly && vite build --watch",
     "lib:build": "vue-tsc --emitDeclarationOnly && vite build",
