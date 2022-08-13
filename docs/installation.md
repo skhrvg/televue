@@ -5,30 +5,40 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-::: danger Under development
-This package is not yet ready for production use.
+::: tip Compatibility
+To use TeleVue, you need to have this version of Vue or higher:
+<br>
+<br>
+<img src="https://img.shields.io/npm/dependency-version/televue/peer/vue?style=for-the-badge&logo=vue.js&label=Vue&color=4FC08D&">
 :::
 
-Install via npm:
+Install with npm:
 
 ```shell
 npm install televue
 ```
 
+Install with yarn:
+
+```shell
+yarn add televue
+```
+
+Or if you just want to try it out with unpkg:
+
+```html
+<script src="https://unpkg.com/televue"></script>
+```
 ## Basic usage
+
+Just import TeleVue component in `<script setup>` of your SFCs and use it in `<template>`:
 
 ```vue
 <script setup>
-import { ButtonShare } from 'televue'
-
-const pageUrl = location.href
+import { WidgetPost } from 'televue'
 </script>
 
 <template>
-  <ButtonShare
-    :url="pageUrl"
-    size="large"
-    comment="Check this out!"
-  />
+  <WidgetPost post="televuenews/3" />
 </template>
 ```
