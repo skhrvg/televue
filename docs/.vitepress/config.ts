@@ -33,11 +33,11 @@ export default defineConfig({
         collapsible: true,
         items: [
           { text: 'Login Widget', link: '/widgets/login' },
-          { text: 'Passport Widget', link: '/widgets/passport' },
           { text: 'Sharing Button', link: '/widgets/share' },
           { text: 'Custom Sharing Button', link: '/widgets/custom-share' },
           { text: 'Post Widget', link: '/widgets/post' },
           { text: 'Discussion Widget', link: '/widgets/discussion' },
+          { text: 'Passport Widget [WIP]', link: '/widgets/passport' },
           { text: 'Telegram Documentation', link: 'https://core.telegram.org/widgets' },
         ],
       },
