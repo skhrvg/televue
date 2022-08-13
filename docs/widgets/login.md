@@ -1,5 +1,5 @@
 ---
-title: Login Widget
+title: Login Button
 editLink: true
 ---
 
@@ -12,7 +12,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-The Telegram **login widget** is a simple way to authorize users on your website.
+The Telegram **login button** is a simple way to authorize users on your website.
 Check out [this post](https://telegram.org/blog/login) for a general overview of the widget.
 
 > [Official Telegram documentation](https://core.telegram.org/widgets/login)

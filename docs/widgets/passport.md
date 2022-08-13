@@ -1,5 +1,5 @@
 ---
-title: Passport Widget
+title: Passport Button
 editLink: true
 ---
 
