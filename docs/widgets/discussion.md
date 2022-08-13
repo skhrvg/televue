@@ -28,7 +28,7 @@ of the current page.
 <ComponentDemo>
   <WidgetDiscussion
     post="televuenews/3"
-    limit="20"
+    :limit="20"
     colorful
   />
 </ComponentDemo>
@@ -44,7 +44,7 @@ import { WidgetDiscussion } from 'televue'
 <template>
   <WidgetDiscussion
     post="televuenews/3"
-    limit="20"
+    :limit="20"
     colorful
   />
 </template>
