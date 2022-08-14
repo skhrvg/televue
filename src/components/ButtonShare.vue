@@ -24,7 +24,7 @@ const props = defineProps({
 
 type Size = 'medium' | 'large'
 
-const button = ref()
+const button = ref<HTMLElement | undefined>()
 
 onMounted(() => {
   const script = document.createElement('script')
@@ -35,7 +35,8 @@ onMounted(() => {
   script.setAttribute('data-comment', props.comment)
   if (props.hideText)
     script.setAttribute('data-text', 'notext')
-  button.value.appendChild(script)
+  if (button.value)
+    button.value.appendChild(script)
 })
 </script>
 

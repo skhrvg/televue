@@ -42,7 +42,7 @@ type Mode = 'callback' | 'redirect'
 type Access = 'read' | 'write'
 type Size = 'small' | 'medium' | 'large'
 
-const button = ref()
+const button = ref<HTMLElement | undefined>()
 
 const onTelegramAuth = (user: any) => {
   emit('callback', user)
@@ -65,7 +65,8 @@ onMounted(() => {
   else {
     script.setAttribute('data-auth-url', props.redirectUrl)
   }
-  button.value.appendChild(script)
+  if (button.value)
+    button.value.appendChild(script)
 })
 </script>
 

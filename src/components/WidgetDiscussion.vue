@@ -32,7 +32,7 @@ const props = defineProps({
   },
 })
 
-const widget = ref()
+const widget = ref<HTMLElement | undefined>()
 
 onMounted(() => {
   const script = document.createElement('script')
@@ -50,7 +50,8 @@ onMounted(() => {
     script.setAttribute('data-color', props.accent)
   if (props.darkAccent)
     script.setAttribute('data-dark-color', props.darkAccent)
-  widget.value.appendChild(script)
+  if (widget.value)
+    widget.value.appendChild(script)
 })
 </script>
 
