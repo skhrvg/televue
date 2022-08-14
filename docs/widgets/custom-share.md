@@ -77,10 +77,12 @@ a {
 
 And this is how this custom sharing button component looks like:
 
-<CustomShareButton 
-  button-text="Share on Telegram" 
-  share-text="Check out this cool custom sharing button made with Vue, Tailwind and TeleVue!" 
-/>
+<ClientOnly>
+  <CustomShareButton 
+    button-text="Share on Telegram" 
+    share-text="Check out this cool custom sharing button made with Vue, Tailwind and TeleVue!" 
+  />
+</ClientOnly>
 
 ## useShareURL
 
