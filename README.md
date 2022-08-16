@@ -79,9 +79,9 @@ const shareURL = useShareURL(href, 'Your comment')
 
 <template>
   <a
-      :href="shareURL"
-      target="_blank"
-      rel="noreferrer"
+    :href="shareURL"
+    target="_blank"
+    rel="noreferrer"
   >
     Share on Telegram
   </a>
