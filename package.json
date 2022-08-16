@@ -5,7 +5,7 @@
     "url": "https://skhr.vg"
   },
   "license": "MIT",
-  "description": "Telegram widgets as components for Vue 3",
+  "description": "Vue 3 components for Telegram widgets",
   "repository": {
     "type": "git",
     "url": "https://github.com/skhrvg/televue.git"
@@ -47,19 +47,19 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",
-    "@types/node": "^18.7.1",
+    "@types/node": "^18.7.6",
     "@vitejs/plugin-vue": "^3.0.1",
+    "autoprefixer": "^10.4.8",
     "eslint": "^8.21.0",
     "eslint-plugin-vue": "^9.3.0",
-    "typescript": "^4.7.4",
-    "vite": "^3.0.5",
-    "vite-plugin-eslint": "^1.7.0",
-    "vitepress": "^1.0.0-alpha.4",
-    "vue-tsc": "^0.40.1",
-    "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
-    "vite-plugin-mkcert": "^1.9.0"
+    "typescript": "^4.7.4",
+    "vite": "^3.0.8",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-mkcert": "^1.9.0",
+    "vitepress": "^1.0.0-alpha.5",
+    "vue-tsc": "^0.40.1"
   },
   "postcss": {
     "plugins": {
