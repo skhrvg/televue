@@ -24,7 +24,7 @@ export default defineConfig({
       },
     ],
     editLink: {
-      pattern: 'https://github.com/skhrvg/televue/edit/main/docs/:path',
+      pattern: 'https://github.com/skhrvg/televue/edit/master/docs/:path',
       text: 'Edit this page on GitHub',
     },
     sidebar: [
