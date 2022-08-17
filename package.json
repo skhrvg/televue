@@ -58,7 +58,7 @@
     "vite": "^3.0.8",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-mkcert": "^1.9.0",
-    "vitepress": "^1.0.0-alpha.5",
+    "vitepress": "^1.0.0-alpha.8",
     "vue-tsc": "^0.40.1"
   },
   "postcss": {
