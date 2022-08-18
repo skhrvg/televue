@@ -43,7 +43,7 @@ export default defineConfig({
           { text: 'Custom Sharing Button', link: '/widgets/custom-share' },
           { text: 'Post Widget', link: '/widgets/post' },
           { text: 'Discussion Widget', link: '/widgets/discussion' },
-          { text: 'Passport Button [WIP]', link: '/widgets/passport' },
+          { text: 'Passport Button', link: '/widgets/passport' },
           { text: 'Telegram Documentation', link: 'https://core.telegram.org/widgets' },
         ],
       },
@@ -55,7 +55,6 @@ export default defineConfig({
   },
 
   vite: {
-    // @ts-expect-error legit vite plugin
     plugins: [mkcert()],
     server: {
       port: 443,
