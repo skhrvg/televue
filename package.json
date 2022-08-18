@@ -27,7 +27,7 @@
     "typescript",
     "library"
   ],
-  "version": "0.1.0-dev3",
+  "version": "1.0.0-alpha.1",
   "scripts": {
     "lib:watch": "vue-tsc --emitDeclarationOnly && vite build --watch",
     "lib:build": "vue-tsc --emitDeclarationOnly && vite build",
