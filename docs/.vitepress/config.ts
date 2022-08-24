@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import mkcert from 'vite-plugin-mkcert'
 
 export default defineConfig({
   title: 'TeleVue',
@@ -12,6 +11,11 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    algolia: {
+      appId: 'KOUOXFHX8V',
+      apiKey: 'c72d4741d3cdb9b9510bdbe1e2c5151c',
+      indexName: 'televue',
+    },
     siteTitle: 'TeleVue',
     logo: '/logo.svg',
     socialLinks: [
@@ -51,15 +55,6 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present Gleb Sakharov',
-    },
-  },
-
-  vite: {
-    plugins: [mkcert()],
-    server: {
-      port: 443,
-      host: '127.0.0.1',
-      https: true,
     },
   },
 })
