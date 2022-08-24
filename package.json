@@ -31,7 +31,7 @@
   "scripts": {
     "lib:watch": "vue-tsc --emitDeclarationOnly && vite build --watch",
     "lib:build": "vue-tsc --emitDeclarationOnly && vite build",
-    "docs:dev": "sudo vitepress dev docs",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import mkcert from 'vite-plugin-mkcert'
 
 export default defineConfig({
   title: 'TeleVue',
@@ -56,15 +55,6 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present Gleb Sakharov',
-    },
-  },
-
-  vite: {
-    plugins: [mkcert()],
-    server: {
-      port: 443,
-      host: '127.0.0.1',
-      https: true,
     },
   },
 })
