@@ -12,6 +12,11 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    algolia: {
+      appId: 'KOUOXFHX8V',
+      apiKey: 'c72d4741d3cdb9b9510bdbe1e2c5151c',
+      indexName: 'televue',
+    },
     siteTitle: 'TeleVue',
     logo: '/logo.svg',
     socialLinks: [
